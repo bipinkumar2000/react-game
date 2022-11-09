@@ -1,0 +1,35 @@
+.container{
+    width: 100%;
+    height:100vh;
+    display: flex;
+    align-items:center;
+    flex-direction:column;
+}
+label{
+    margin:0.3rem 0;
+}
+input{
+    background-color:white ;
+    margin:0.3rem 0;
+    border-radius:3px;
+    height:2rem;
+    border:none;
+}
+h3{
+    color:green; 
+}
+.login_header{
+    display:flex;
+    justify-content:center;
+    margin:1rem 0;
+    color:green;
+    
+    
+}
+/* .login_header_content{
+    color:green;
+    margin:5rem 0;
+} */
+.card{
+    margin:5rem 0;
+}
