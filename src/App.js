@@ -2,6 +2,7 @@ import React, { useContext } from "react";
 
 import "./App.css";
 import Login from "./Components/Login";
+import Home from "./Components/Home";
 // import Card from "./UI/Card";
 import AuthContext from "./Store/AuthContext";
 
@@ -11,11 +12,7 @@ function App() {
   return (
     <div className="main-content">
       {!ctx.isLoggedIn && <Login />}
-      {ctx.isLoggedIn && (
-        <div>
-          <p>hello world</p>
-        </div>
-      )}
+      {ctx.isLoggedIn && <Home />}
     </div>
   );
 }
